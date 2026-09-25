@@ -9,7 +9,7 @@ FMP_API_KEY = os.getenv("FMP_API_KEY", "")
 MICRO_CAP_FLOOR = 300_000_000
 PULLBACK_ENTRY_PCT = 0.02
 PULLBACK_EXIT_PCT = 0.005
-STALE_DATA_DAYS = 800
+STALE_DATA_DAYS = 450
 MIN_PEER_GROUP_SIZE = 5
 
 INTEREST_COVERAGE_MIN = 2.0
@@ -19,7 +19,7 @@ COMPOSITE_WEIGHTS = {
     "fundamentals": 4.0,
     "relative_peer_valuation": 3.5,
     "risk": 2.0,
-    "price_momentum": 0.5,
+    "price_momentum": 0.0,
 }
 
 F_SCORE_QUALIFY_MIN = 5
